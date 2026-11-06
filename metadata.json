@@ -1,0 +1,6 @@
+{
+  "name": "HEART HEALTH – Executive Portal",
+  "description": "Executive meeting booking platform and corporate management portal for HEART HEALTH (شركة صيدليات صحة القلب).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

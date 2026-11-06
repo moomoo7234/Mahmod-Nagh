@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .bg-radial-crimson {
+    background: radial-gradient(circle at 50% 30%, rgba(163, 13, 37, 0.22) 0%, rgba(10, 4, 6, 0.6) 50%, rgba(8, 8, 8, 1) 90%);
+  }
+  .bg-radial-subtle {
+    background: radial-gradient(circle at top right, rgba(163, 13, 37, 0.15) 0%, rgba(8, 8, 8, 0) 60%);
+  }
+  .glow-crimson {
+    box-shadow: 0 0 35px -5px rgba(163, 13, 37, 0.45);
+  }
+  .glow-crimson-subtle {
+    box-shadow: 0 0 20px -3px rgba(163, 13, 37, 0.25);
+  }
+  .border-crimson-glow {
+    border-color: rgba(163, 13, 37, 0.5);
+    box-shadow: inset 0 0 15px rgba(163, 13, 37, 0.15);
+  }
+  .text-glow-crimson {
+    text-shadow: 0 0 20px rgba(163, 13, 37, 0.6);
+  }
+}
